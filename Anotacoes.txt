@@ -1,0 +1,36 @@
+O que é Node.js?
+
+Plataforma execução JS no backend
+
+O que o Node.js veio resolver?
+
+Ryan Dahl
+Barra de progresso do flickr
+Não tinha suportes processos I/O
+
+Caracteristica do Node.js
+
+Arquitetura Event Loop
+  Call stack
+
+Single - Thread
+
+Non-blocking I/O
+
+Módulos Próprio
+  http
+  dns
+  fs
+  buffer
+  ...
+
+Gerenciadores de pacotes
+  NPM e/ou Yarn
+
+Frameworks
+  Express.js
+  Egg.js
+  Nest.js
+  Adonis.js
+
+
