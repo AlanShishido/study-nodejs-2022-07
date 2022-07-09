@@ -4,7 +4,8 @@ const app = express()
 
 app.use(express.json());
 
-app.get('/courses', (req, res) => {
+app.get('/', (req, res) => {
+  console.log('Servidor ativo')
   return res.json({"message": "hello world"})
 });
 
