@@ -30,20 +30,20 @@ app.post('/account', (req, res) => {
     name,
     cpf,
     uuid,
-    statement: {}
+    statement: []
   })
 
   return res.status(201).send();
 })
 
-// RE2 e RN3
-app.get('/statement/:cpf', (req, res) => {
-  const { cpf } = req.params;
+// RE2 e RN3gi
+app.get('/statement', (req, res) => {
+  const { cpf } = req.headers;
 
   const customer = customers.find((customer) => customer.cpf === cpf)
   
   if(!customer){
-    return res.status(400).json({error: "Customer not exists!"});
+    return res.status(400).json({error: "Customer not found"});
   }
 
   return res.json(customer.statement);
