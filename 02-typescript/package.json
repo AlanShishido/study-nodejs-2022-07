@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "dist/server.js",
   "scripts": {
-    "dev": "nodemon -L"
+    "dev": "node dist/server.js"
   },
   "license": "MIT",
   "dependencies": {
