@@ -12,7 +12,8 @@
         "<node_internals>/**"
       ],
       "outFiles": [
-        "mnt/c/${workspaceFolder}/**/*.ts"
+        "${workspaceFolder}/**/*.ts",
+        "/mnt/c/${workspaceFolder}/**/*.ts",
       ]
     }
   ]
