@@ -39,6 +39,8 @@
         "no-shadow": "off",
         "no-console": "off",
         "no-useless-constructor": "off",
+        "no-use-before-define": "off",
+        // "no-class-assign":"off",
         "no-empty-function": "off",
         "lines-between-class-members": "off",
         "import/extensions": [
